@@ -1,0 +1,55 @@
+body {
+    /* Frame 1 */
+    background: #232530;
+}
+
+navbar {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#Home, #Projects, #About, #Contact {
+    padding: 0.5% 5%;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vmax;
+    line-height: 2.5vmax;
+    margin: 0;
+    color: #FFFFFF;
+    transition: 0.3s;
+    
+}
+
+#Home:hover, #Projects:hover, #About:hover, #Contact:hover {
+    background-color: #292A52;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+#image {
+    border-radius: 50%;
+    width: 15.625%;
+    background-color: #292A52;
+}
+
+.text-container {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.intro {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vmax;
+    margin-top: 2%;
+    text-align: center;
+}
