@@ -49,7 +49,25 @@ navbar {
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
-    font-size: 3vmax;
+    
     margin-top: 2%;
     text-align: center;
+}
+
+#hello {
+    font-size: 3vmax;
+    overflow: hidden;
+    width: 0;
+    animation: typing 2s forwards;
+
+
+}
+
+#fsd {
+    font-size: 1.8vmax;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
